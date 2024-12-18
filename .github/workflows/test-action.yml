@@ -1,0 +1,12 @@
+name : action 연습~
+on:
+  push:
+    branches:
+      - master
+jobs:
+  my-test-action:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 실행할 제목 표현
+        run: pwd
