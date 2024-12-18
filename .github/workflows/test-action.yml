@@ -9,4 +9,10 @@ jobs:
 
     steps:
       - name: 실행할 제목 표현
-        run: ls
+        run: pwd
+      - name: 1. ls 실행
+        run : ls
+      - name : 2. 프로젝트 가져오기
+        uses : actions/checkout@v4
+      - name : 3. ls 확인
+        run : ls
