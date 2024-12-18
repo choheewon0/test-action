@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: 실행할 제목 표현
-        run: pwd
+        run: ls
