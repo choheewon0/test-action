@@ -11,4 +11,4 @@ jobs:
       - name: 실행할 제목 표현
         run: pwd
       - name : jdk 11 설치
-        run : apt install openjdk-11-jdk
+        run : sudo apt install openjdk-11-jdk
